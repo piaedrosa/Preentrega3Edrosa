@@ -45,9 +45,7 @@ iframe{
     border: 1px solid aliceblue;
 justify-content: center;
 }
- .button{
-    color:aliceblue
-}
+
 
 
 .form{
@@ -59,9 +57,7 @@ justify-content: center;
     margin-left: 10px;
    
 }
-.btn-primary{
-   Margin-left: 10px;
-}
+
 .row a{
     color: aliceblue;
     text-align: center;
@@ -70,33 +66,18 @@ justify-content: center;
 .form h1{
     text-align: center;
 }
- .contacto img, .registro img, .logo img{
+  .registro img, .logo img{
     width: 50px;
     height: 50px;
 }
 
-main{
-    color: aliceblue;
-    background-image: linear-gradient( rgba(9, 0, 10, 0.539),hwb(198 0% 22% / 0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    
-    
-}
+
 
 .registro{
     height: 20em;
     
 }
-.mb-3{
-    margin-left: 10px;
-    
-}
-.mb-3 h1{
-    text-align: center;
-}
+
 body{
     width:100%;
     border:0px;}
@@ -115,31 +96,16 @@ h6{
     
 
 .container-fluid{
---bs-gutter-x: 0rem;
-
-
-}
-.quien h1{
-    text-align: center;
-}
-.quien img{
-    height: 400px;
-    width: 300px;
-    padding: 30px
-
-}
+    --bs-gutter-x: 0rem;
+    
+    
+    }
 
 
 
 
 
-#carouselExampleCaptions{
-height: 600px;
-width: 400px;
-justify-content: center;
-}
 
-.row{
-    align-items: center;
-    --bs-gutter-x: 0rem
-}
+
+
+

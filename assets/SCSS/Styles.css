@@ -21,6 +21,57 @@ header .container-fluid {
   --bs-gutter-x: 0rem;
 }
 
+main {
+  color: aliceblue;
+  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+main .quien img {
+  height: 400px;
+  width: 300px;
+  padding: 30px;
+}
+main .quien h1 {
+  text-align: center;
+}
+main .container-fluid {
+  --bs-gutter-x: 0rem;
+}
+main #carouselExampleCaptions {
+  height: 600px;
+  width: 400px;
+  justify-content: center;
+}
+main .general {
+  height: 37em;
+}
+main .general .row {
+  align-items: center;
+  --bs-gutter-x: 0rem;
+}
+main .general .row .if iframe {
+  height: 100px;
+}
+main .mb-3 {
+  margin-left: 10px;
+}
+main .h1 {
+  text-align: center;
+}
+main .contacto img {
+  width: 50px;
+  height: 50px;
+}
+main .btn-primary {
+  Margin-left: 10px;
+}
+main .button {
+  color: aliceblue;
+}
+
 footer {
   background-color: #044967;
   color: aliceblue;
@@ -51,25 +102,6 @@ footer .container-fluid {
 footer .row {
   align-items: center;
   --bs-gutter-x: 0rem ;
-}
-
-main {
-  color: aliceblue;
-  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
-}
-main .general {
-  height: 37em;
-}
-main .general .row {
-  align-items: center;
-  --bs-gutter-x: 0rem;
-}
-main .general .row .if iframe {
-  height: 100px;
 }
 
 main {
