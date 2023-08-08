@@ -1,5 +1,1 @@
-{"version":3,
-"sources":["Styles.scss","Styles.css"],
-"names":[],
-"mappings":"AAAA;EAAG,SAAA;EACC,UAAA;EACA,sBAAA;ACEJ",
-"file":"Styles.css"}
+{"version":3,"sources":["Componentes/_header.scss","Styles.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;EACA,6BAAA;EACA,6BAAA;EACA,aAAA;EACA,sBAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,WAAA;ACCJ;ADAI;EACA,WAAA;EACA,YAAA;ACEJ;ADAI;EACI,gBAAA;ACER","file":"Styles.css"}
