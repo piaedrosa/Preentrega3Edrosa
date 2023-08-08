@@ -1,4 +1,3 @@
-@import '../CSS/Stylrgrid.css';
 header {
   background-color: #044967;
   color: floralwhite !important;
@@ -53,20 +52,13 @@ footer .row {
   --bs-gutter-x: 0rem ;
 }
 
-main {
-  color: aliceblue;
-  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
+main .general {
+  height: 37em;
 }
-
-main {
-  color: aliceblue;
-  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
+main .general .row {
+  align-items: center;
+  --bs-gutter-x: 0rem;
+}
+main .general .row .if iframe {
+  height: 100px;
 }/*# sourceMappingURL=Styles.css.map */

@@ -19,6 +19,18 @@ box-sizing: border-box;
     src: url(../Fonts/Poppins-ExtraBold.ttf);
     font-weight:800;
   }
+
+  @media (max-width:576px){
+    .general{
+        height: auto;
+        font-size: 12px;
+        
+    }    
+}
+
+
+
+
 #emailHelp{
     color:aliceblue
 }
@@ -90,40 +102,17 @@ body{
     border:0px;}
 
 
-footer ul{
-    display: flex;
-    justify-content: space-evenly;
-}
-li{
-    list-style-type: none;
-}
-li img{
-    width: 50px;
-    height: 50px;
-}
-footer{
-  
-    background-color:#044967;
-    color:aliceblue;
-    padding: 0.5em;
-}
 
- .footer .row{    
-    --bs-gutter-x:0rem;
-    
 
-}
+
+
+ 
 h6{
     font-size: 10px;
     padding: 1em;
 }
-footer img{
-    height: 40px;
-    width: 40px;
+
     
-    
-    
-}
 
 .container-fluid{
 --bs-gutter-x: 0rem;
@@ -141,25 +130,8 @@ footer img{
 }
 
 
-.general{
-    height: 37em;
-}
 
 
-
-@media (max-width:576px){
-    .general{
-        height: auto;
-        font-size: 12px;
-        
-    }
-    .if iframe{
-        height:100px;
-        
-       
-    }
-    
-}
 
 #carouselExampleCaptions{
 height: 600px;

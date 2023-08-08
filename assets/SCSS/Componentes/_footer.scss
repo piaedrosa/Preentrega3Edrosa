@@ -1,0 +1,32 @@
+footer{
+  
+    background-color:#044967;
+    color:aliceblue;
+    padding: 0.5em;
+    .row{
+        --bs-gutter-x:0rem;
+        align-items: center;
+
+    img{
+    height: 40px;
+    width: 40px;
+    }
+
+    ul{
+    display: flex;
+    justify-content: space-evenly;
+        li{
+        list-style-type: none;
+            img{
+            width: 50px;
+            height: 50px;
+    }}}
+}
+.container-fluid{
+--bs-gutter-x: 0rem;
+}
+.row{
+    align-items: center;
+    --bs-gutter-x: 0rem
+}
+}
