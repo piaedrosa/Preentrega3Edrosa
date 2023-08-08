@@ -61,6 +61,16 @@ main {
   background-position: center;
   background-color: #000;
 }
+main .general {
+  height: 37em;
+}
+main .general .row {
+  align-items: center;
+  --bs-gutter-x: 0rem;
+}
+main .general .row .if iframe {
+  height: 100px;
+}
 
 main {
   color: aliceblue;

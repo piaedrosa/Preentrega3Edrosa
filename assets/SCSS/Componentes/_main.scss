@@ -5,5 +5,23 @@ main{
     background-size: cover;
     background-position: center;
     background-color: #000;
+    
+    .general{
+        height: 37em;
+    
+    .row{
+        align-items: center;
+        --bs-gutter-x: 0rem;
+        .if{
+            iframe{
+                height:100px;
+            }
+        }
+    }
+
 }
+}
+
+
+
 
