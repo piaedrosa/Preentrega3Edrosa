@@ -5,7 +5,15 @@ main{
     background-size: cover;
     background-position: center;
     background-color: #000;
-
+ .container-fluid{
+        --bs-gutter-x: 0rem;
+     
+        
+        }
+h1{
+    text-align: center;
+}
+ 
     .quien{
         img{
             height: 400px;
@@ -34,14 +42,16 @@ main{
     .row{
         align-items: center;
         --bs-gutter-x: 0rem;
-        .if{
+        
             iframe{
                 height:100px;
             }
+
         }
     }
 
 }
+ 
 .mb-3{
     margin-left: 10px;
     
@@ -62,7 +72,53 @@ main{
      .button{
         color:aliceblue
     }
-     }
+    .registro{
+        height: 20em;
+        padding-left: 10px;
+        margin-left: 10px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        
+        
+        }
+   
+        
+    
+    .form{
+        padding: 10px;
+        height: 26em;
+        }
+        #emailHelp{
+            color:aliceblue
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+
+         
+        }
+        iframe{
+            height: 300px;
+            width: 80%;
+           margin-left: 50px;
+            margin-top: 10px;
+            border: 1px solid aliceblue;
+        justify-content: center;
+        }
+   
+     .row{
+        a{
+                color: aliceblue;
+                text-align: center;
+        }
+    }    
+    
+    
+        
+    
+     
 
 
 

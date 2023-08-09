@@ -1,4 +1,3 @@
-@import '../CSS/Stylrgrid.css';
 header {
   background-color: #044967;
   color: floralwhite !important;
@@ -29,6 +28,12 @@ main {
   background-position: center;
   background-color: #000;
 }
+main .container-fluid {
+  --bs-gutter-x: 0rem;
+}
+main h1 {
+  text-align: center;
+}
 main .quien img {
   height: 400px;
   width: 300px;
@@ -52,30 +57,77 @@ main .general .row {
   align-items: center;
   --bs-gutter-x: 0rem;
 }
-main .general .row .if iframe {
+main .general .row iframe {
   height: 100px;
 }
-main .mb-3 {
+
+.mb-3 {
   margin-left: 10px;
 }
-main .h1 {
+
+.h1 {
   text-align: center;
 }
-main .contacto img {
+
+.contacto img {
   width: 50px;
   height: 50px;
 }
-main .btn-primary {
+
+.btn-primary {
   Margin-left: 10px;
 }
-main .button {
+
+.button {
   color: aliceblue;
+}
+
+.registro {
+  height: 20em;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.registro img {
+  width: 50px;
+  height: 50px;
+}
+
+.form {
+  padding: 10px;
+  height: 26em;
+}
+
+#emailHelp {
+  color: aliceblue;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+iframe {
+  height: 300px;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid aliceblue;
+  justify-content: center;
+}
+
+.row a {
+  color: aliceblue;
+  text-align: center;
 }
 
 footer {
   background-color: #044967;
   color: aliceblue;
   padding: 0.5em;
+}
+footer h6 {
+  font-size: 10px;
+  padding: 1em;
 }
 footer .row {
   --bs-gutter-x:0rem;
@@ -104,11 +156,39 @@ footer .row {
   --bs-gutter-x: 0rem ;
 }
 
-main {
-  color: aliceblue;
-  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #000;
+body {
+  width: 100%;
+  border: 0px;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem;
+}
+
+|* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins-ExtraBold.ttf);
+  font-weight: 800;
+}
+@media (max-width: 576px) {
+  .general {
+    height: auto;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Styles.css.map */

@@ -1,86 +1,21 @@
-|*{ margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-@font-face {
-    font-family:"Poppins";
-    src: url(../Fonts/Poppins-Regular.ttf);
-    font-weight:400;
-  }
-  
-  @font-face {
-    font-family:"Poppins";
-    src: url(../Fonts/Poppins-Bold.ttf);
-    font-weight:700;
-  }
-  
-  @font-face {
-    font-family:"Poppins";
-    src: url(../Fonts/Poppins-ExtraBold.ttf);
-    font-weight:800;
-  }
-
-  @media (max-width:576px){
-    .general{
-        height: auto;
-        font-size: 12px;
-        
-    }    
-}
 
 
 
 
-#emailHelp{
-    color:aliceblue
-}
-  .if{
-    height: 20em;
-}
-iframe{
-    height: 300px;
-    width: 80%;
-    margin-left: 50px;
-    margin-top: 10px;
-    border: 1px solid aliceblue;
-justify-content: center;
-}
-
-
-
-.form{
-    padding: 10px;
-    height: 26em;
-}
-.form-registro{
-    padding-left: 10px;
-    margin-left: 10px;
    
-}
-
-.row a{
-    color: aliceblue;
-    text-align: center;
-}
-
-.form h1{
-    text-align: center;
-}
-  .registro img, .logo img{
-    width: 50px;
-    height: 50px;
-}
 
 
 
-.registro{
-    height: 20em;
-    
-}
 
-body{
-    width:100%;
-    border:0px;}
+
+
+  
+
+
+
+
+
+
 
 
 
@@ -88,18 +23,11 @@ body{
 
 
  
-h6{
-    font-size: 10px;
-    padding: 1em;
-}
+
 
     
 
-.container-fluid{
-    --bs-gutter-x: 0rem;
-    
-    
-    }
+
 
 
 
