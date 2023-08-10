@@ -134,7 +134,7 @@ main .general .row {
   animation-duration: 10s;
   animation-name: titilar;
   animation-iteration-count: infinite;
-  transform: translateX(500px);
+  transform: translateX(50%);
 }
 @keyframes titilar {
   0% {
