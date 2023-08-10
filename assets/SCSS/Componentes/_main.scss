@@ -14,7 +14,15 @@ main{
 h1{
     text-align: center;
 }
- 
+ p{transition: all 3s;
+    &:hover{
+        cursor:none;
+        background-color: $fondo;
+        font-size: 30px;
+        text-decoration: solid;
+    }
+ }
+
     .quien{
         img{
             height: 400px;
@@ -55,6 +63,15 @@ h1{
  
 .mb-3{
     margin-left: 10px;
+    margin-right: 80%;
+    .input{
+        height: 30px;
+    transition: height 2s;
+    &:focus{
+        height: 40px;
+    }}
+
+  
     
     }
     .h1{
@@ -90,6 +107,9 @@ h1{
     .form{
         padding: 10px;
         height: 26em;
+        input{
+            margin-right: 2em;
+        }
         }
         #emailHelp{
             color: $letras;
