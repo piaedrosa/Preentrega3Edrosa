@@ -14,11 +14,20 @@ header{
     height: 50px;
     }
     .nav-link{
-        color:aliceblue
+        color:aliceblue;
+        
     }
     .container-fluid{
         --bs-gutter-x: 0rem;
         }
-
+ 
+}
+ul{
+    li{
+        a{
+    &:hover{
+            color:pink
+        }}
+  }
 
 }

@@ -20,6 +20,10 @@ header .container-fluid {
   --bs-gutter-x: 0rem;
 }
 
+ul li a:hover {
+  color: pink;
+}
+
 main {
   color: aliceblue;
   background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
@@ -118,6 +122,18 @@ iframe {
 .row a {
   color: aliceblue;
   text-align: center;
+}
+.row .if {
+  height: 37em;
+}
+
+.col-sm-7 iframe {
+  height: 300px;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid aliceblue;
+  justify-content: center;
 }
 
 footer {
