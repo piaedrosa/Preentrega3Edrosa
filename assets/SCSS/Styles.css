@@ -19,9 +19,14 @@ header .nav-link {
 header .container-fluid {
   --bs-gutter-x: 0rem;
 }
-
-ul li a:hover {
-  color: pink;
+header .nav-link {
+  color: aliceblue;
+}
+header .nav-link:hover {
+  color: darkgoldenrod;
+}
+header .btn {
+  background-color: aliceblue;
 }
 
 main {
@@ -61,8 +66,10 @@ main .general .row {
   align-items: center;
   --bs-gutter-x: 0rem;
 }
-main .general .row iframe {
-  height: 100px;
+
+.row {
+  align-items: center;
+  --bs-gutter-x: 0rem;
 }
 
 .mb-3 {
@@ -172,6 +179,7 @@ footer .row {
   --bs-gutter-x: 0rem ;
 }
 
+/*variables*/
 body {
   width: 100%;
   border: 0px;

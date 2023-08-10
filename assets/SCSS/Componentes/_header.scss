@@ -1,6 +1,6 @@
 header{
     
-    background-color:#044967;
+    background-color:$fondo;
     color:floralwhite !important;
     border: 1px solid floralwhite;
     display: flex;
@@ -14,20 +14,25 @@ header{
     height: 50px;
     }
     .nav-link{
-        color:aliceblue;
+        color:$letras;
         
     }
     .container-fluid{
         --bs-gutter-x: 0rem;
         }
  
-}
-ul{
-    li{
-        a{
-    &:hover{
-            color:pink
-        }}
-  }
+
+        .nav-link{
+            color:$letras;
+            &:hover{
+            color:darkgoldenrod;
+        
+  }}
+
+    .btn {
+        background-color: $letras;
+       
+
+    }
 
 }

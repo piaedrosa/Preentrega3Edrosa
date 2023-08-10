@@ -49,8 +49,9 @@ h1{
 
         }
     }
-
-}
+ .row{
+        align-items: center;
+        --bs-gutter-x: 0rem;}
  
 .mb-3{
     margin-left: 10px;
@@ -70,7 +71,7 @@ h1{
         Margin-left: 10px;
      }
      .button{
-        color:aliceblue
+        color:$letras;
     }
     .registro{
         height: 20em;
@@ -91,7 +92,7 @@ h1{
         height: 26em;
         }
         #emailHelp{
-            color:aliceblue
+            color: letras;
         }
         .logo img{
             width: 50px;
@@ -104,13 +105,13 @@ h1{
             width: 80%;
            margin-left: 50px;
             margin-top: 10px;
-            border: 1px solid aliceblue;
+            border: 1px solid $letras;
         justify-content: center;
         }
    
      .row{
         a{
-                color: aliceblue;
+                color: $letras;
                 text-align: center;
         }
         .if{
@@ -125,7 +126,7 @@ h1{
             width: 80%;
            margin-left: 50px;
             margin-top: 10px;
-            border: 1px solid aliceblue;
+            border: 1px solid $letras;
         justify-content: center;
         }
     }
