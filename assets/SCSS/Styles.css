@@ -1,7 +1,8 @@
+/*variables para practicar no va a quedar asi*/
 header {
   background-color: #044967;
-  color: floralwhite !important;
-  border: 1px solid floralwhite;
+  color: Floralwhite;
+  border: 1px solid Floralwhite;
   display: flex;
   font-family: "Poppins";
   font-weight: 400px;
@@ -12,25 +13,36 @@ header {
 header img {
   width: 50px;
   height: 50px;
+  transform: translateX(50px);
+  transform: scale(1, 3, 1, 3);
+  transition: height 2s;
+}
+header img:hover {
+  height: 100px;
+  width: 100px;
 }
 header .nav-link {
-  color: aliceblue;
+  color: Floralwhite;
 }
 header .container-fluid {
   --bs-gutter-x: 0rem;
 }
 header .nav-link {
-  color: aliceblue;
+  color: Floralwhite;
 }
 header .nav-link:hover {
   color: darkgoldenrod;
 }
 header .btn {
-  background-color: aliceblue;
+  background-color: Floralwhite;
+  color: #044967;
+}
+header .btn:hover {
+  background-color: darkgoldenrod;
 }
 
 main {
-  color: aliceblue;
+  color: Floralwhite;
   background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,11 +98,11 @@ main .general .row {
 }
 
 .btn-primary {
-  Margin-left: 10px;
+  margin-left: 10px;
 }
 
 .button {
-  color: aliceblue;
+  color: Floralwhite;
 }
 
 .registro {
@@ -109,7 +121,7 @@ main .general .row {
 }
 
 #emailHelp {
-  color: aliceblue;
+  color: Floralwhite;
 }
 
 .logo img {
@@ -122,12 +134,12 @@ iframe {
   width: 80%;
   margin-left: 50px;
   margin-top: 10px;
-  border: 1px solid aliceblue;
+  border: 1px solid Floralwhite;
   justify-content: center;
 }
 
 .row a {
-  color: aliceblue;
+  color: Floralwhite;
   text-align: center;
 }
 .row .if {
@@ -139,13 +151,13 @@ iframe {
   width: 80%;
   margin-left: 50px;
   margin-top: 10px;
-  border: 1px solid aliceblue;
+  border: 1px solid Floralwhite;
   justify-content: center;
 }
 
 footer {
   background-color: #044967;
-  color: aliceblue;
+  color: Floralwhite;
   padding: 0.5em;
 }
 footer h6 {
@@ -171,15 +183,30 @@ footer .row ul li img {
   width: 50px;
   height: 50px;
 }
-footer .container-fluid {
+footer .row .container-fluid {
   --bs-gutter-x: 0rem;
 }
-footer .row {
+footer .row .row {
   align-items: center;
   --bs-gutter-x: 0rem ;
 }
 
-/*variables*/
+.spotify {
+  background-color: #81b71a;
+}
+
+.instagram {
+  background-color: #F58529;
+}
+
+.youtube {
+  background-color: black;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
 body {
   width: 100%;
   border: 0px;

@@ -1,11 +1,20 @@
+/*variables para practicar no va a quedar asi*/
+$letras:Floralwhite;
+$fondo:#044967;
+$redes:(
+  spotify:#81b71a,
+  instagram:#F58529,
+  youtube: black,
+  whatsapp:#25D366,
+);
+
+
+
 @import '../SCSS/Componentes/header';
 @import '../SCSS/Componentes/main';
 @import '../SCSS/Componentes/footer';
 
-/*variables*/
-$letras:aliceblue;
-$fondo:#044967;
-$font: "Poppins";
+
 
 
 body{

@@ -24,7 +24,8 @@ footer{
             img{
             width: 50px;
             height: 50px;
-    }}}
+            
+            }}
 }
 .container-fluid{
 --bs-gutter-x: 0rem;
@@ -34,3 +35,10 @@ footer{
     --bs-gutter-x: 0rem
 }
 }
+
+}
+@each $red, $color in $redes {
+    .#{$red}{
+        background-color:  $color;}
+    
+            }

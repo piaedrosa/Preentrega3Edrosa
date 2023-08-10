@@ -1,5 +1,5 @@
 main{
-    color: aliceblue;
+    color:$letras;
     background-image: linear-gradient( rgba(9, 0, 10, 0.539),hwb(198 0% 22% / 0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ h1{
         }
     }
     .btn-primary{
-        Margin-left: 10px;
+        margin-left: 10px;
      }
      .button{
         color:$letras;
@@ -92,7 +92,7 @@ h1{
         height: 26em;
         }
         #emailHelp{
-            color: letras;
+            color: $letras;
         }
         .logo img{
             width: 50px;
@@ -103,10 +103,11 @@ h1{
         iframe{
             height: 300px;
             width: 80%;
-           margin-left: 50px;
+            margin-left: 50px;
             margin-top: 10px;
             border: 1px solid $letras;
-        justify-content: center;
+            justify-content: center;
+           
         }
    
      .row{
@@ -124,10 +125,10 @@ h1{
         iframe{
             height: 300px;
             width: 80%;
-           margin-left: 50px;
+            margin-left: 50px;
             margin-top: 10px;
             border: 1px solid $letras;
-        justify-content: center;
+            justify-content: center;
         }
     }
     
