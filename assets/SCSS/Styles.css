@@ -61,7 +61,7 @@ main p {
 main p:hover {
   cursor: none;
   background-color: #044967;
-  font-size: 30px;
+  font-size: 20px;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
