@@ -82,7 +82,7 @@ main #carouselExampleCaptions {
   justify-content: center;
 }
 main .general {
-  height: 37em;
+  height: 50em;
 }
 main .general .row {
   align-items: center;
@@ -96,13 +96,14 @@ main .general .row {
 
 .mb-3 {
   margin-left: 10px;
-  margin-right: 80%;
+  margin-right: 20%;
 }
-.mb-3 .input {
+
+.input {
   height: 30px;
   transition: height 2s;
 }
-.mb-3 .input:focus {
+.input:focus {
   height: 40px;
 }
 
